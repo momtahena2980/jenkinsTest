@@ -29,6 +29,7 @@ public class Automationpracticesignin {
 		au = new utilityautomation1(driver);
 
 		driver.get("http://automationpractice.com/index.php");
+		System.out.println("User nevigated to automationpractice.com");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 	}
