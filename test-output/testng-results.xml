@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="20" passed="20">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17902" started-at="2021-10-13T22:48:04Z" finished-at="2021-10-13T22:48:22Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="9819" started-at="2021-10-13T22:48:04Z" finished-at="2021-10-13T22:48:14Z">
+      <class name="amazon.tests.Automationpracticesignin">
+        <test-method status="PASS" signature="initializingBrowser()[pri:0, instance:amazon.tests.Automationpracticesignin@4c6e276e]" name="initializingBrowser" is-config="true" duration-ms="2905" started-at="2021-10-13T18:48:04Z" finished-at="2021-10-13T18:48:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializingBrowser -->
+        <test-method status="PASS" signature="validatesigninlink()[pri:1, instance:amazon.tests.Automationpracticesignin@4c6e276e]" name="validatesigninlink" duration-ms="1071" started-at="2021-10-13T18:48:07Z" finished-at="2021-10-13T18:48:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesigninlink -->
+        <test-method status="PASS" signature="emailaddress(java.lang.String)[pri:2, instance:amazon.tests.Automationpracticesignin@4c6e276e]" name="emailaddress" duration-ms="246" started-at="2021-10-13T18:48:08Z" finished-at="2021-10-13T18:48:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[umairah.mahbnb34235668778@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailaddress -->
+        <test-method status="PASS" signature="Createanaccount()[pri:4, instance:amazon.tests.Automationpracticesignin@4c6e276e]" name="Createanaccount" duration-ms="1212" started-at="2021-10-13T18:48:08Z" finished-at="2021-10-13T18:48:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Createanaccount -->
+        <test-method status="PASS" signature="Createanaccount2(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:amazon.tests.Automationpracticesignin@4c6e276e]" name="Createanaccount2" duration-ms="274" started-at="2021-10-13T18:48:09Z" finished-at="2021-10-13T18:48:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[umairah]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mahreen]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[umairah12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Createanaccount2 -->
+        <test-method status="PASS" signature="day(java.lang.String)[pri:6, instance:amazon.tests.Automationpracticesignin@4c6e276e]" name="day" duration-ms="153" started-at="2021-10-13T18:48:10Z" finished-at="2021-10-13T18:48:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day -->
+        <test-method status="PASS" signature="month(java.lang.String)[pri:7, instance:amazon.tests.Automationpracticesignin@4c6e276e]" name="month" duration-ms="171" started-at="2021-10-13T18:48:10Z" finished-at="2021-10-13T18:48:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- month -->
+        <test-method status="PASS" signature="year(java.lang.String)[pri:8, instance:amazon.tests.Automationpracticesignin@4c6e276e]" name="year" duration-ms="351" started-at="2021-10-13T18:48:10Z" finished-at="2021-10-13T18:48:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- year -->
+        <test-method status="PASS" signature="address(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:amazon.tests.Automationpracticesignin@4c6e276e]" name="address" duration-ms="402" started-at="2021-10-13T18:48:10Z" finished-at="2021-10-13T18:48:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[south four mile run drive]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Alexandria]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[va]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[28907]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- address -->
+        <test-method status="PASS" signature="mobilephone(java.lang.String)[pri:10, instance:amazon.tests.Automationpracticesignin@4c6e276e]" name="mobilephone" duration-ms="103" started-at="2021-10-13T18:48:11Z" finished-at="2021-10-13T18:48:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[287346458]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilephone -->
+        <test-method status="PASS" signature="registerbutton()[pri:11, instance:amazon.tests.Automationpracticesignin@4c6e276e]" name="registerbutton" duration-ms="2821" started-at="2021-10-13T18:48:11Z" finished-at="2021-10-13T18:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerbutton -->
+        <test-method status="PASS" signature="Closingbrowser()[pri:0, instance:amazon.tests.Automationpracticesignin@4c6e276e]" name="Closingbrowser" is-config="true" duration-ms="61" started-at="2021-10-13T18:48:14Z" finished-at="2021-10-13T18:48:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closingbrowser -->
+      </class> <!-- amazon.tests.Automationpracticesignin -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="8051" started-at="2021-10-13T22:48:14Z" finished-at="2021-10-13T22:48:22Z">
+      <class name="amazon.tests.Automationpracticesignin">
+        <test-method status="PASS" signature="initializingBrowser()[pri:0, instance:amazon.tests.Automationpracticesignin@25a65b77]" name="initializingBrowser" is-config="true" duration-ms="2197" started-at="2021-10-13T18:48:14Z" finished-at="2021-10-13T18:48:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializingBrowser -->
+        <test-method status="PASS" signature="validatesigninlink()[pri:1, instance:amazon.tests.Automationpracticesignin@25a65b77]" name="validatesigninlink" duration-ms="885" started-at="2021-10-13T18:48:16Z" finished-at="2021-10-13T18:48:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatesigninlink -->
+        <test-method status="PASS" signature="emailaddress(java.lang.String)[pri:2, instance:amazon.tests.Automationpracticesignin@25a65b77]" name="emailaddress" duration-ms="178" started-at="2021-10-13T18:48:17Z" finished-at="2021-10-13T18:48:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[umar.mahrus6745267@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emailaddress -->
+        <test-method status="PASS" signature="Createanaccount()[pri:4, instance:amazon.tests.Automationpracticesignin@25a65b77]" name="Createanaccount" duration-ms="1360" started-at="2021-10-13T18:48:17Z" finished-at="2021-10-13T18:48:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Createanaccount -->
+        <test-method status="PASS" signature="Createanaccount2(java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:amazon.tests.Automationpracticesignin@25a65b77]" name="Createanaccount2" duration-ms="246" started-at="2021-10-13T18:48:18Z" finished-at="2021-10-13T18:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[umar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mahrus]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[umaar6896]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Createanaccount2 -->
+        <test-method status="PASS" signature="day(java.lang.String)[pri:6, instance:amazon.tests.Automationpracticesignin@25a65b77]" name="day" duration-ms="113" started-at="2021-10-13T18:48:19Z" finished-at="2021-10-13T18:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- day -->
+        <test-method status="PASS" signature="month(java.lang.String)[pri:7, instance:amazon.tests.Automationpracticesignin@25a65b77]" name="month" duration-ms="124" started-at="2021-10-13T18:48:19Z" finished-at="2021-10-13T18:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- month -->
+        <test-method status="PASS" signature="year(java.lang.String)[pri:8, instance:amazon.tests.Automationpracticesignin@25a65b77]" name="year" duration-ms="361" started-at="2021-10-13T18:48:19Z" finished-at="2021-10-13T18:48:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- year -->
+        <test-method status="PASS" signature="address(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:9, instance:amazon.tests.Automationpracticesignin@25a65b77]" name="address" duration-ms="324" started-at="2021-10-13T18:48:19Z" finished-at="2021-10-13T18:48:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[southern towers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Arlington]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[va]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[22232]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- address -->
+        <test-method status="PASS" signature="mobilephone(java.lang.String)[pri:10, instance:amazon.tests.Automationpracticesignin@25a65b77]" name="mobilephone" duration-ms="83" started-at="2021-10-13T18:48:20Z" finished-at="2021-10-13T18:48:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2876257665]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobilephone -->
+        <test-method status="PASS" signature="registerbutton()[pri:11, instance:amazon.tests.Automationpracticesignin@25a65b77]" name="registerbutton" duration-ms="2102" started-at="2021-10-13T18:48:20Z" finished-at="2021-10-13T18:48:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerbutton -->
+        <test-method status="PASS" signature="Closingbrowser()[pri:0, instance:amazon.tests.Automationpracticesignin@25a65b77]" name="Closingbrowser" is-config="true" duration-ms="70" started-at="2021-10-13T18:48:22Z" finished-at="2021-10-13T18:48:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closingbrowser -->
+      </class> <!-- amazon.tests.Automationpracticesignin -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

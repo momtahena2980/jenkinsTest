@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+  <test thread-count="3" name="Test1">
+  <parameter name="firstname" value= "umairah"></parameter>
+  <parameter name="lastname" value= "mahreen"></parameter>
+  <parameter name="password" value= "umairah12345"></parameter>
+  <parameter name="emailaddress" value= "umairah.mahbnb34235668778658@gmail.com"></parameter>
+ <parameter name="selectDay" value= "12"></parameter>
+   <parameter name="selectMonth" value= "1"></parameter>
+   <parameter name="selectYear" value= "12"></parameter>
+  <parameter name="address" value= "south four mile run drive"></parameter>
+  <parameter name="city" value= "Alexandria"></parameter>
+  <parameter name="state" value= "va"></parameter>
+  <parameter name="zipcode" value= "28907"></parameter>
+  <parameter name="mobilephone" value= "287346458"></parameter> 
+    
+    <classes>
+      <class name="amazon.tests.Automationpracticesignin"/>
+   
+ </classes>
+</test>
+
+
+ <test thread-count="3" name="Test2">
+  <parameter name="firstname" value= "umar"></parameter>
+  <parameter name="lastname" value= "mahrus"></parameter>
+  <parameter name="password" value= "umaar6896"></parameter>
+  <parameter name="emailaddress" value= "umar.mahrus674526768@gmail.com"></parameter>
+  <parameter name="selectDay" value= "2"></parameter>
+   <parameter name="selectMonth" value= "5"></parameter>
+   <parameter name="selectYear" value= "11"></parameter>
+  <parameter name="address" value= "southern towers"></parameter>
+  <parameter name="city" value= "Arlington"></parameter>
+  <parameter name="state" value= "va"></parameter>
+  <parameter name="zipcode" value= "22232"></parameter>
+  <parameter name="mobilephone" value= "2876257665"></parameter> 
+    
+    <classes>
+      <class name="amazon.tests.Automationpracticesignin"/>
+   
+ </classes>
+ </test> <!-- Test -->
+</suite><!-- Suite --> 
+
+
+
+
+
+
+

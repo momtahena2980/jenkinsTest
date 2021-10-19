@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Test1(failed)">
+    <parameter name="zipcode" value="28907"/>
+    <parameter name="firstname" value="umairah"/>
+    <parameter name="password" value="umairah12345"/>
+    <parameter name="selectMonth" value="1"/>
+    <parameter name="address" value="south four mile run drive"/>
+    <parameter name="city" value="Alexandria"/>
+    <parameter name="selectDay" value="12"/>
+    <parameter name="selectYear" value="12"/>
+    <parameter name="mobilephone" value="287346458"/>
+    <parameter name="emailaddress" value="umairah.mahbnb34235668778658@gmail.com"/>
+    <parameter name="state" value="va"/>
+    <parameter name="lastname" value="mahreen"/>
+    <classes>
+      <class name="amazon.tests.Automationpracticesignin">
+        <methods>
+          <include name="Createanaccount2" invocation-numbers="0"/>
+          <include name="Closingbrowser"/>
+          <include name="Closingbrowser"/>
+          <include name="Createanaccount"/>
+          <include name="year" invocation-numbers="0"/>
+          <include name="day" invocation-numbers="0"/>
+          <include name="month" invocation-numbers="0"/>
+          <include name="registerbutton"/>
+          <include name="address" invocation-numbers="0"/>
+          <include name="initializingBrowser"/>
+          <include name="initializingBrowser"/>
+          <include name="mobilephone" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- amazon.tests.Automationpracticesignin -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)">
+    <parameter name="zipcode" value="22232"/>
+    <parameter name="firstname" value="umar"/>
+    <parameter name="password" value="umaar6896"/>
+    <parameter name="selectMonth" value="5"/>
+    <parameter name="address" value="southern towers"/>
+    <parameter name="city" value="Arlington"/>
+    <parameter name="selectDay" value="2"/>
+    <parameter name="selectYear" value="11"/>
+    <parameter name="mobilephone" value="2876257665"/>
+    <parameter name="emailaddress" value="umar.mahrus674526768@gmail.com"/>
+    <parameter name="state" value="va"/>
+    <parameter name="lastname" value="mahrus"/>
+    <classes>
+      <class name="amazon.tests.Automationpracticesignin">
+        <methods>
+          <include name="Closingbrowser"/>
+          <include name="Closingbrowser"/>
+          <include name="year" invocation-numbers="0"/>
+          <include name="registerbutton"/>
+          <include name="initializingBrowser"/>
+          <include name="initializingBrowser"/>
+          <include name="emailaddress" invocation-numbers="0"/>
+          <include name="Createanaccount2" invocation-numbers="0"/>
+          <include name="Createanaccount"/>
+          <include name="day" invocation-numbers="0"/>
+          <include name="month" invocation-numbers="0"/>
+          <include name="address" invocation-numbers="0"/>
+          <include name="mobilephone" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- amazon.tests.Automationpracticesignin -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
